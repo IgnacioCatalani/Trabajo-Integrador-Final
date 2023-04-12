@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <div>
+        <div>
+            <h1 class="titulo-form">Zera's</h1> 
+        </div>
+        
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputNombre1" class="form-label">Nombre y Apellido</label>
+              <input type="nombre" class="form-control" id="exampleInputNombre1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Direccíon</label>
+                <input type="direccion" class="form-control" id="exampleInputDireccion1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="exampleInputtel1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Localidad</label>
+                <input type="localidad" class="form-control" id="exampleInputloc1">
+              </div>
+          </form>
+
+
+        <h3>Añadir Artículo</h3>
+    </div>
+    <div>
+        <label for="categoria"></label>
+        <select name="categoria">
+        <option value="">Seleccione Categoría</option>
+        <option value="Reloj">Reloj formal</option>
+        <option value="Smartwatch">Smartwatch</option>
+        <option value="Zapatillas">Zapatillas Nike</option>
+        <option value="Auriculares">Auriculares</option>
+        <option value="Gorra">Gorra Worthy</option>
+        <option value="Perfume">Perfume Chanel</option>
+        </select>
+    </div>
+     <div>
+        <label for="cantidad">Cantidad:</label>
+       <input type="number"  name="cantidad" id="cantidad" class="input" min="1" max="100" required >
+     </div>
+
+       <div>
+        <input type="checkbox" id="Retirar en sucursal" value="Retirar en sucursal"> <label for="Retirar en sucursal"> Retirar en sucursal</label> <br>
+        <input type="checkbox" id="Envío a domicilio" value="Envío a domicilio"> <label for="Envío a domicilio">Envío a domicilio </label> <br>
+       </div>
+       <h3>Total a Pagar: </h3>
+       
+       <div>
+        <input type="submit" id="send-button" name="send-button">
+        <input type="reset" value="Borrar">
+       </div>
+     
+  </form>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+</body>
+</html>

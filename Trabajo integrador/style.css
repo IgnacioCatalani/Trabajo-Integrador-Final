@@ -1,0 +1,148 @@
+/* Global */
+*::after,
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .Comprar{
+        font-size: 20px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 46%;
+        top: 35px;
+        color: red;
+    }
+
+    /* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0  40px 0;
+}
+
+
+
+
+/* Main */
+.conteiner-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+   }
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.info-product{
+    padding: 15px 30px;
+
+}
+
+.item img{
+    width: 100%;
+    height: 300px;  
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    }
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.container-footer{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.footer-class{
+    display: flex;
+    
+
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.footer-links h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+    }
+
+
+
+    /* Formulario */
+  .titulo-form{
+    color: red;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+ 
+  
